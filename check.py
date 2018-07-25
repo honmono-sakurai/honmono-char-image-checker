@@ -17,7 +17,7 @@ extracted_txt = tool.image_to_string(
     builder=pyocr.builders.TextBuilder()
 )
 
-if 'sakurai'.count('fuga') == 0:
+if 'sakurai'.count('サクライ') == 0:
     print('you are suck')
 else:
     print('awesome!')
