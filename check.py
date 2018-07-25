@@ -17,7 +17,8 @@ extracted_txt = tool.image_to_string(
     builder=pyocr.builders.TextBuilder()
 )
 
-if 'sakurai'.count('サクライ') == 0:
+index = text.find('サクライ')
+if index != -1:
     print('you are suck')
 else:
     print('awesome!')
